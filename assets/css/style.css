@@ -1879,4 +1879,117 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+  /**
+	 * COURSES
+	 */
+
+  .courses-list,
+  .tp-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .courses-section,
+  .tp-td-section {
+    margin-bottom: 40px;
+  }
+
+  .courses-title,
+  .tp-title {
+    margin-bottom: 20px;
+    font-size: var(--fs-3);
+    font-weight: var(--fw-500);
+    color: var(--orange-yellow-crayola);
+  }
+
+  .courses-item,
+  .tp-item {
+    background: var(--bg-gradient-jet);
+    border: 1px solid var(--jet);
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+
+  .courses-item:hover,
+  .tp-item:hover {
+    background: var(--eerie-black-1);
+    border-color: var(--orange-yellow-crayola);
+  }
+
+  .courses-item-title,
+  .tp-item-title {
+    font-size: var(--fs-3);
+    font-weight: var(--fw-500);
+    margin-bottom: 8px;
+    color: var(--white-1);
+  }
+
+  .courses-meta,
+  .tp-meta {
+    font-size: var(--fs-7);
+    color: var(--orange-yellow-crayola);
+    margin-bottom: 12px;
+    font-weight: var(--fw-500);
+  }
+
+  .courses-text,
+  .tp-text {
+    font-size: var(--fs-7);
+    color: var(--light-gray);
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .btn-download {
+    display: inline-block;
+    padding: 8px 15px;
+    background: var(--orange-yellow-crayola);
+    color: var(--eerie-black-1);
+    border-radius: 8px;
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600);
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-download:hover {
+    background: var(--vegas-gold);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-2);
+  }
+
+  .tp-files {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .file-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: var(--jet);
+    border: 1px solid var(--orange-yellow-crayola);
+    color: var(--orange-yellow-crayola);
+    border-radius: 6px;
+    font-size: var(--fs-8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: var(--fw-500);
+  }
+
+  .file-link:hover {
+    background: var(--orange-yellow-crayola);
+    color: var(--eerie-black-1);
+  }
+
 }
+
