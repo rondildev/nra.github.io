@@ -1,18 +1,44 @@
-# Teacher-s-portfolio
+# vCard - Personal portfolio
 
-Simple Gift For My Teacher's. Website made with Html Css and Js. 
+![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-Make a teacher's portfolio Website with Html CSS and js.  It is very important to make an E-website For Showing Your Skills, For this, You need a Portfolio website, 
-In this Video Tutorial, We are Going to Preview a Portfolio website That is Specially designed For Teachers. It is Fully Responsive 
+vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
-[Live Demo](https://naemazam.github.io/Teacher-portfolio)
-[Youtube Video](https://www.youtube.com/watch?v=7AXtl8_1V4o&t=5s)
+## Demo
 
-# screenshots 
-![](1.PNG)
-![](2.PNG)
-![](3.PNG)
-![](4.PNG)
-![](5.PNG)
+![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-# Free To Use 
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+## Installing vCard
+
+To install **vCard**, follow these steps:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
+
+## Contact
+
+If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+
+## License
+
+MIT
